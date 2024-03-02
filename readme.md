@@ -38,3 +38,18 @@ make // default dynamic linking build
 
 make static // musl static linked build
 ```
+
+## Global Install
+
+To make the binary available from everywhere it's quite easy
+
+```sh
+# make a symbolic link from the local/bin to synfo
+ln -s /path/to/the/synfo /usr/local/bin    # you may need to use sudo for this
+
+#update the PATH environment variable to reflect our newly added symbolic link
+export PATH="/usr/local/bin:$PATH"    # do this every time you move the symbolic link
+
+#update the source
+source ~/.bashrc    # I run bash, so I refresh the bashrc file. If you use some other shell, find out what you need to do
+```
