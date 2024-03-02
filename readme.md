@@ -1,6 +1,6 @@
 # Synfo (System Information)
 
-<p align="center"><img src="https://raw.githubusercontent.com/ionutrogojan/synfo/main/synfo.png" width="640px"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ionutrogojan/synfo/main/synfo.png" width="100%"/></p>
 
 It has almost the same functionality as neofetch, without being too bloated.
 
