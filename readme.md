@@ -53,3 +53,5 @@ export PATH="/usr/local/bin:$PATH"    # do this every time you move the symbolic
 #update the source
 source ~/.bashrc    # I run bash, so I refresh the bashrc file. If you use some other shell, find out what you need to do
 ```
+
+Now you can type `synfo` like you would any other command. Enjoy! :)
